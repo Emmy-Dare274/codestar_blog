@@ -1,6 +1,10 @@
 import os
 import dj_database_url
 
+if os.path.isfile('env.py'):
+    import env
+    
+    
 """
 Django settings for codestar project.
 
@@ -135,7 +139,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-if os.path.isfile('env.py'):
-    import env
     
