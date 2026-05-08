@@ -8,7 +8,7 @@ from .models import Post
 
 class PostList(generic.ListView):
     #model = Post
-    queryset = Post.objects.all()
+    queryset = Post.objects.all().order_by('-created_on')
     template_name = 'post_list.html'
     
 
