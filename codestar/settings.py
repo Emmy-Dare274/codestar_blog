@@ -46,7 +46,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 SECRET_KEY = 'django-insecure-!+fjct(qhv)&(e4j_^#)frs32u!ez3i4j=ia2v=4zfa1bx*fdn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1',]
 
